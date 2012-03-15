@@ -22,7 +22,7 @@
 
 	<li>
 		<?php
-		    // se pasan el id y el nombre del usuario, esto es porque la tabla de usuario es externa
+		    // Se pasan el id y el nombre del usuario, esto es porque la tabla de usuario pertenece al joomla
 			// solo para efectos de desarrollo está en la BD lista_precios
 			$id_usuario= $cliente['XpfUsers']['id'];
 			$nombre_usuario = $cliente['XpfUsers']['name'];
